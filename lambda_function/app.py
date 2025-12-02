@@ -4,7 +4,7 @@ import requests
 
 def lambda_handler(event, context):
 
-    print("Deployment via CICD process !! HI abhi")
+    print("Deployment via CICD process !! HI abhi2")
     response = requests.get("https://jsonplaceholder.typicode.com/posts")
     data = response.json()
     
